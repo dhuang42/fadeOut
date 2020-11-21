@@ -20,16 +20,20 @@ const Film = db.define('film', {
       notEmpty: true
     }
   },
-  releaseDate: {
-    type: Sequelize.STRING,
+  releaseYear: {
+    type: Sequelize.INTEGER,
+    allowNull: false
+  },
+  runtime: {
+    type: Sequelize.INTEGER,
+    allowNull: false
+  },
+  tagline: {
+    type: Sequelize.TEXT,
     allowNull: false,
     validate: {
       notEmpty: true
     }
-  },
-  runtime: {
-    type: Sequelize.INTEGER,
-    defaultValue: 0
   },
   logline: {
     type: Sequelize.TEXT,
