@@ -1,7 +1,7 @@
 {
   "name": "fadeout",
   "version": "2.0.0",
-  "description": "a social film discovery website",
+  "description": "a social film discovery website where users can track films they've watched, review films, and discover new films",
   "engines": {
     "node": "~12.11.1"
   },
