@@ -15,6 +15,7 @@ async function seed() {
   const films = await Promise.all([
     Film.create({
       title: 'Parasite',
+      posterUrl: '/posters/parasite.png',
       director: 'Bong Joon-ho',
       releaseYear: 2019,
       runtime: 132,
@@ -24,6 +25,7 @@ async function seed() {
     }),
     Film.create({
       title: 'Ford v Ferrari',
+      posterUrl: '/posters/fordvferrari.png',
       director: 'James Mangold',
       releaseYear: 2019,
       runtime: 152,
@@ -33,6 +35,7 @@ async function seed() {
     }),
     Film.create({
       title: 'The Irishman',
+      posterUrl: '/posters/theirishman.png',
       director: 'Martin Scorsese',
       releaseYear: 2019,
       runtime: 209,
@@ -42,6 +45,7 @@ async function seed() {
     }),
     Film.create({
       title: 'Jojo Rabbit',
+      posterUrl: '/posters/jojorabbit.png',
       director: 'Taika Waititi',
       releaseYear: 2019,
       runtime: 108,
@@ -51,6 +55,7 @@ async function seed() {
     }),
     Film.create({
       title: 'Joker',
+      posterUrl: '/posters/joker.png',
       director: 'Todd Phillips',
       releaseYear: 2019,
       runtime: 122,
@@ -60,6 +65,7 @@ async function seed() {
     }),
     Film.create({
       title: 'Marriage Story',
+      posterUrl: '/posters/marriagestory.png',
       director: 'Noah Baumbach',
       releaseYear: 2019,
       runtime: 137,
@@ -69,6 +75,7 @@ async function seed() {
     }),
     Film.create({
       title: '1917',
+      posterUrl: '/posters/1917.png',
       director: 'Sam Mendes',
       releaseYear: 2019,
       runtime: 119,
@@ -78,6 +85,7 @@ async function seed() {
     }),
     Film.create({
       title: 'Once Upon a Time in Hollywood',
+      posterUrl: '/posters/onceuponatimehollywood.png',
       director: 'Quentin Tarantino',
       releaseYear: 2019,
       runtime: 161,
