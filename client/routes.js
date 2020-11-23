@@ -19,9 +19,10 @@ class Routes extends Component {
     return (
       <Switch>
         {/* Routes placed here are available to all visitors */}
+        <Route exact path="/films" component={AllFilms} />
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
-        <Route path="/films" component={AllFilms} />
+        <Route exact path="/" component={AllFilms} />
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}
