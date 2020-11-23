@@ -26,7 +26,12 @@ const AuthForm = props => {
           <input name="password" type="password" />
         </div>
         <div>
-          <Button type="submit" variant="contained" color="primary">
+          <Button
+            size="small"
+            type="submit"
+            variant="contained"
+            color="primary"
+          >
             {displayName}
           </Button>
           {/* <button type="submit">{displayName}</button> */}

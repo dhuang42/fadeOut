@@ -19,7 +19,12 @@ class AllFilms extends React.Component {
             {films.map(film => {
               return (
                 <div className="single-film" key={film.id}>
-                  <img src={film.posterUrl} width="480" height="720" />
+                  <img
+                    className="single-film-poster"
+                    src={film.posterUrl}
+                    width="480"
+                    height="720"
+                  />
                   <h4 className="film-title">{film.title}</h4>
                 </div>
               )
