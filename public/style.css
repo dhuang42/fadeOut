@@ -19,30 +19,3 @@ form div {
   margin: 1em;
   display: inline-block;
 }
-
-/* AllFilms view */
-.films-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px;
-  margin-left: 120px;
-  margin-top: 20px;
-}
-
-.single-film {
-  border-style: hidden;
-  border-radius: 25px;
-  padding: 5px;
-  margin: 5px;
-}
-
-.single-film-poster {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.single-film img:hover {
-  box-shadow: 0 0 0 10px #3f51b5;
-}
